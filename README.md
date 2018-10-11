@@ -1,4 +1,4 @@
-Deployed on Heroku ![here](https://interactive-website-hw.herokuapp.com/)
+Deployed on Heroku [here](https://interactive-website-hw.herokuapp.com/)
 
 # Belly Button Biodiversity
 
