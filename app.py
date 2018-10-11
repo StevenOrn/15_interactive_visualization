@@ -50,7 +50,7 @@ def names():
 
 
 @app.route("/metadata/<sample>")
-def sample_metadata(sample):
+def sample_metadata(*):
     """Return the MetaData for a given sample."""
     sel = [
         Samples_Metadata.sample,

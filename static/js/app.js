@@ -85,6 +85,13 @@ function buildCharts(sample) {
 
 
       Plotly.newPlot("pie", pieData);
+
+      var myPlot = document.getElementById('pie');
+      myPlot.on('plotly_click', function(data){
+        console.log(data);
+      });
+
+
     });
 
 
@@ -110,6 +117,7 @@ function init() {
   });
 }
 
+
 function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildCharts(newSample);
@@ -118,3 +126,4 @@ function optionChanged(newSample) {
 
 // Initialize the dashboard
 init();
+
